@@ -1,9 +1,13 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Landing from '../components/Landing';
 
 export default function Home() {
   return (
     <div>
-      <h1>hello</h1>
+      <Head> 
+        <title>warren yun</title>
+      </Head>
+      <Landing />
     </div>
   )
 }

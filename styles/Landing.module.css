@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;
+}
+
+.titleDiv {
+    display: grid;
+    grid-template-areas: 
+        "name pfp";
+    text-align: center;
+}
+
+.title {
+    font-size: 450%;
+}
+
+.firstName {
+    color: #ff00c3;
+}

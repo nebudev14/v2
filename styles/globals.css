@@ -1,9 +1,19 @@
+@font-face {
+  font-family: "Big-John";
+  src: url("../styles/BIG\ JOHN.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Slim-Joe";
+  src: url("../styles/Slim\ Joe.otf") format("opentype");
+}
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Slim-Joe;
   color: #fff;
 }
 
