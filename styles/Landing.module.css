@@ -22,6 +22,11 @@
     animation-iteration-count: infinite;
 }
 
+.lastName {
+    color:rgb(2, 204, 255);
+    text-shadow: 12px 12px 15px rgb(2, 204, 255);
+}
+
 .text {
     text-align: center;
     font-size: 150%;

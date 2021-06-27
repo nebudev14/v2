@@ -6,7 +6,8 @@ const Landing = () => {
         <div className={landingStyles.container}>
             <div>
                 <h1 className={landingStyles.title}>
-                    <span className={landingStyles.firstName}>warren</span> yun 
+                    <span className={landingStyles.firstName}>warren </span> 
+                    <span className={landingStyles.lastName}>yun</span> 
                 </h1>
                 <h2 className={landingStyles.text}>
                     a high schooler with a passion for programming and a strong addiction to hackathons
