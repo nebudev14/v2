@@ -36,6 +36,7 @@
     text-align: center;
     font-size: 150%;
     width: 50rem;
+    animation: fadeIn 3s ease;
 }
 
 .socialMediaWrapper {
@@ -50,6 +51,7 @@
     height: 30pt;
     margin: 0 2rem 0 2rem;
     display: inline;
+    animation: fadeIn 3s ease;
 }
 
 .pfpContainer {
@@ -61,6 +63,15 @@
     width: 280px;
     height: 280px;
     margin-top: 5rem;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes flashLights {
@@ -105,6 +116,5 @@
         width: 25pt;
         height: 25pt;
     }
-
-
 }
+
