@@ -12,6 +12,7 @@
 .title {
     font-size: 550%;
     text-shadow: 12px 12px 15px #fff;
+    text-align: center;
 }
 
 .firstName {
@@ -60,4 +61,19 @@
         text-shadow: 12px 12px 15px #ff00c3;
     }
 
+}
+
+@media screen and (max-width: 1025px) { 
+    .title {
+        font-size: 250%;
+    }    
+
+    .text {
+        font-size: 120%;
+    }
+
+    .logo {
+        width: 25pt;
+        height: 25pt;
+    }
 }
