@@ -6,8 +6,7 @@
 }
 
 .title {
-    font-size: 450%;
-    margin-top: -4rem;
+    font-size: 550%;
 }
 
 .firstName {
@@ -17,4 +16,18 @@
 .pfp {
     margin: auto;
     border-radius: 20%;
+}
+
+.socialMediaWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 30pt;
+    height: 30pt;
+    margin: 0 1rem 0 1rem;
 }
