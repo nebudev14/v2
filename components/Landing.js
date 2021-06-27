@@ -9,7 +9,7 @@ const Landing = () => {
                     <span className={landingStyles.firstName}>warren</span> yun 
                 </h1>
                 <h2 className={landingStyles.text}>
-                    15 year old coding addict
+                    a high schooler with a passion for programming and a strong addiction to hackathons
                 </h2>
             </div>
             <div className={landingStyles.socialMediaWrapper}>
