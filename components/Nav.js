@@ -7,16 +7,16 @@ const Nav = () => {
                 <a href="/projects">projects</a>
             </li>
             <li className={navStyles.navElement}>
-                <a href="https://scrapbook.hackclub.com/WarrenYun/">scrapbook</a>
+                <a href="https://scrapbook.hackclub.com/WarrenYun/" target="_blank">scrapbook</a>
             </li>
             <li className={navStyles.navElement}>
                 <a href="/">home</a>
             </li>
             <li className={navStyles.navElement}>
-                <a href="https://scrapbook.hackclub.com/WarrenYun/">blog</a>
+                <a href="/blog">blog</a>
             </li>
             <li className={navStyles.navElement}>
-                <a href="https://scrapbook.hackclub.com/WarrenYun/">timeline</a>
+                <a href="https://www.polywork.com/nebudev14" target="_blank">timeline</a>
             </li>
         </ul>
         
