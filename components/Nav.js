@@ -19,7 +19,6 @@ const Nav = () => {
                 <a href="https://www.polywork.com/nebudev14" className={navStyles.link} target="_blank">Timeline</a>
             </li>
         </ul>
-        
     );
 }
 
