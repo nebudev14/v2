@@ -8,6 +8,11 @@
   src: url("../styles/Slim\ Joe.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Electrolize";
+  src: url("../styles/Electrolize/Electrolize-Regular.ttf");
+}
+
 
 html,
 body {
