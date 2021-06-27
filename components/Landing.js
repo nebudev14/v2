@@ -4,7 +4,7 @@ const Landing = () => {
     
     return (
         <div className={landingStyles.container}>
-            <div>
+            <div className={landingStyles.openingDiv}>
                 <h1 className={landingStyles.title}>
                     <span className={landingStyles.firstName}>warren </span> 
                     <span className={landingStyles.lastName}>yun.</span> 
@@ -12,7 +12,6 @@ const Landing = () => {
                 <h2 className={landingStyles.text}>
                     a high schooler with a passion for programming and a strong addiction to learning new things
                 </h2>
-
             </div>
             <div className={landingStyles.socialMediaWrapper}>
                 <a href="https://www.instagram.com/nebudev14/" target="_blank">

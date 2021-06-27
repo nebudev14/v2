@@ -10,7 +10,7 @@
     width: 100vw;
 }
 
-.navElement {
+.link {
     padding: 12px 20px 12px 20px;
     border-radius: 15px;
     width: 163px;
@@ -21,7 +21,8 @@
     transition: 100ms ease;
 }
 
-.navElement:hover {
+
+.link:hover {
     background-color: #ff00c3;
     box-shadow: 0 0 5px 0 #ff00c3, 0 0 10px 0 #ff00c3;
     transform: scale(1.15);
