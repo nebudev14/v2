@@ -11,5 +11,5 @@ export default function Home() {
       <Landing />
       <Nav />
     </div>
-  )
+  );
 }

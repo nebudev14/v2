@@ -3,19 +3,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-areas: 
+        "title"
+        "social";
 }
 
 .title {
     font-size: 550%;
+    text-shadow: 12px 12px 15px #fff;
 }
 
 .firstName {
     color: #ff00c3;
+    text-shadow: 12px 12px 15px #ff00c3;
+    animation: flashLights 3s ease;
+    animation-iteration-count: infinite;
 }
 
-.pfp {
-    margin: auto;
-    border-radius: 20%;
+.text {
+    text-align: center;
+    font-size: 150%;
 }
 
 .socialMediaWrapper {
@@ -31,4 +39,25 @@
     height: 30pt;
     margin: 0 1rem 0 1rem;
     display: inline;
+}
+
+@keyframes flashLights {
+    0% {
+        text-shadow: none;
+    }
+
+    6% {
+        text-shadow: 12px 12px 15px #ff00c3;
+    }
+    8% {
+        text-shadow: none;
+    }
+    10% {
+        text-shadow: 12px 12px 15px #ff00c3;
+    }
+   
+    100% {
+        text-shadow: 12px 12px 15px #ff00c3;
+    }
+
 }
