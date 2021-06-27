@@ -18,10 +18,12 @@
     font-family: Electrolize;
     text-align: center;
     cursor: pointer;
-    transition: 200ms ease;
+    transition: 100ms ease;
 }
 
 .navElement:hover {
     background-color: #ff00c3;
+    box-shadow: 0 0 5px 0 #ff00c3, 0 0 10px 0 #ff00c3;
+    transform: scale(1.15);
 }
 
