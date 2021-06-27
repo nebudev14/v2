@@ -8,7 +8,6 @@ export default function BlogDisplay() {
       <Head> 
         <title>warren yun</title>
       </Head>
-      <Nav />
       <Blog />
     </div>
   );

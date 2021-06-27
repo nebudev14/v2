@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "Big-John";
-  src: url("../styles/BIG\ JOHN.otf") format("opentype");
-}
-
-@font-face {
   font-family: "Slim-Joe";
   src: url("../styles/Slim\ Joe.otf") format("opentype");
 }
@@ -41,4 +36,5 @@ a {
 ::-webkit-scrollbar-thumb {
   background-color: #ff00c3;
 }
+
 

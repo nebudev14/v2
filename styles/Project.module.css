@@ -1,6 +1,15 @@
 .container {
     height: 100vh;
+}
+
+.projectContent {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+}
+
+.projTitle {
+    font-size: 350%;
+    padding: 1rem;
+    border-bottom: solid 2px #fff;
 }

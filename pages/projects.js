@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Project from '../components/Project';
-import Nav from '../components/Nav';
+
 
 export default function ProjectDisplay() {
   return (
@@ -8,7 +8,6 @@ export default function ProjectDisplay() {
       <Head> 
         <title>warren yun</title>
       </Head>
-      <Nav />
       <Project />
     </div>
   );
