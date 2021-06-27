@@ -8,8 +8,8 @@ export default function Home() {
       <Head> 
         <title>warren yun</title>
       </Head>
-      <Landing />
       <Nav />
+      <Landing />
     </div>
   );
 }
