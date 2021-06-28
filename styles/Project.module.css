@@ -7,7 +7,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
+
 
 .projTitle {
     font-size: 350%;
@@ -19,5 +21,19 @@
     display: grid;
     grid-template-areas: 
         "proj1 proj2"
-        "proj3 proj4";
+        "proj3 proj4"
+        "proj5 proj6";
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    padding: 3rem;
+    width: 100vw;
 }
+
+.projCard {
+    margin: 4rem;
+}
+
+.projCardTitle {
+    font-size: 250%;
+}
+
