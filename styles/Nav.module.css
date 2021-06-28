@@ -17,7 +17,6 @@
 .link {
     padding: 12px 20px 12px 20px;
     border-radius: 15px;
-    width: 163px;
     font-size: 160%;
     font-family: Electrolize;
     text-align: center;
@@ -25,10 +24,14 @@
     transition: 100ms ease;
 }
 
+.navElement {
+    width: 8rem;
+    height: 3rem;
+}
 
 .link:hover {
-    background-color: #ff00c3;
-    box-shadow: 0 0 5px 0 #ff00c3, 0 0 10px 0 #ff00c3;
-    transform: scale(1.15);
+    background-color: #eb0a66;
+    box-shadow: 0 0 5px 0 #eb0a66, 0 0 10px 0 #eb0a66;
 }
+
 

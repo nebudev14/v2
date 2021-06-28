@@ -16,8 +16,8 @@
 }
 
 .firstName {
-    color: #ff00c3;
-    text-shadow: 12px 12px 15px #ff00c3;
+    color: #eb0a66;
+    text-shadow: 12px 12px 15px #eb0a66;
     animation: flashLights 3s ease;
     animation-iteration-count: infinite;
 }
@@ -80,17 +80,17 @@
     }
 
     6% {
-        text-shadow: 12px 12px 15px #ff00c3;
+        text-shadow: 12px 12px 15px #eb0a66;
     }
     8% {
         text-shadow: none;
     }
     10% {
-        text-shadow: 12px 12px 15px #ff00c3;
+        text-shadow: 12px 12px 15px #eb0a66;
     }
    
     100% {
-        text-shadow: 12px 12px 15px #ff00c3;
+        text-shadow: 12px 12px 15px #eb0a66;
     }
 
 }
