@@ -5,7 +5,9 @@ const Project = () => {
         <div className={projectStyles.container}>       
             <br /><br /><br /><br /><br /><br />  
             <div className={projectStyles.projectContent}>
-                <span className={projectStyles.projTitle}>Projects</span>
+                <span className={projectStyles.projTitle}>
+                    <strong>Projects</strong>
+                </span>
                 <div className={projectStyles.projCardDiv}>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>

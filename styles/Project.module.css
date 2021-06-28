@@ -8,8 +8,9 @@
 
 .projTitle {
     font-size: 350%;
+    color: #ff00c3;
     padding: 1rem;
-    border-bottom: solid 2px #fff;
+    border-bottom: solid 2px rgb(2, 204, 255);
 }
 
 .projCardDiv {
@@ -34,7 +35,6 @@
 .projCardTitle {
     font-size: 250%;
     padding-bottom: 1rem;
-
 }
 
 .projCardDesc {
