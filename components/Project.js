@@ -8,32 +8,44 @@ const Project = () => {
                 <span className={projectStyles.projTitle}>Projects</span>
                 <div className={projectStyles.projCardDiv}>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>Rona-Radar</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>Rona-Radar</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>TheraTracker</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>TheraTracker</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>Midnight Hacks Website</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>Midnight Hacks Website</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>G.O.A.T Notes</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>G.O.A.T Notes</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>Heart Attack Analysis</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>Heart Attack Analysis</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>AutoZoom</span>
+                        <span className={projectStyles.projCardTitle}>
+                            <strong>AutoZoom</strong>
+                        </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
