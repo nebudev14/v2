@@ -11,42 +11,54 @@ const Project = () => {
                 <div className={projectStyles.projCardDiv}>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>Rona-Radar</strong>
+                            <strong>
+                                <a href="https://github.com/Rona-Radar/app" target="_blank">Rona-Radar</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>TheraTracker</strong>
+                            <strong>
+                                <a href="https://github.com/NebuDev14/TheraTracker" target="_blank">TheraTracker</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>Midnight Hacks</strong>
+                            <strong>
+                                <a href="https://midnighthacks.tech/" target="_blank">Midnight Hacks</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>G.O.A.T Notes</strong>
+                            <strong>
+                                <a href="https://github.com/NebuDev14/G.O.A.T-Notes" target="_blank">G.O.A.T Notes</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>Heart Attack Analysis</strong>
+                            <strong>
+                                <a href="https://github.com/NebuDev14/Heart-Attack-Analysis" target="_blank">Heart Attack Analysis</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>AutoZoom</strong>
+                            <strong>
+                                <a href="https://github.com/NebuDev14/AutomaticZoom" target="_blank">AutoZoom</a>
+                            </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
