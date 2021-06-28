@@ -4,6 +4,7 @@
 
 .projectContent {
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .projTitle {
@@ -42,3 +43,36 @@
     margin: 3rem;
 }
 
+@media screen and (max-width: 1025px) { 
+
+
+    .projCardDiv {
+        grid-template-areas: 
+            "p1"
+            "p2"
+            "p3"
+            "p4"
+            "p5"
+            "p6";
+        padding: 0;
+        width: 100%;
+    }
+
+    .projTitle {
+        font-size: 250%;
+    }
+
+    .projCardTitle {
+        font-size: 150%;
+        padding-bottom: 0;
+    }
+
+    .projCardDesc {
+        font-size: 110%;
+        margin: 0;
+    }
+
+    .projCard {
+        margin: 3rem 0 3rem 0;
+    }
+}
