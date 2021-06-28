@@ -8,6 +8,11 @@
   src: url("../styles/Electrolize/Electrolize-Regular.ttf");
 }
 
+:root {
+  --primary-color: #eb0a66;
+  --secondary-color: rgb(2, 204, 255);
+}
+
 
 html,
 body {

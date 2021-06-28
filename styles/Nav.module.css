@@ -30,8 +30,8 @@
 }
 
 .link:hover {
-    background-color: #eb0a66;
-    box-shadow: 0 0 5px 0 #eb0a66, 0 0 10px 0 #eb0a66;
+    background-color: var(--primary-color);
+    box-shadow: 0 0 5px 0 var(--primary-color), 0 0 10px 0 var(--primary-color);
 }
 
 

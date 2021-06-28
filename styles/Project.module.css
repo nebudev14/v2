@@ -9,9 +9,9 @@
 
 .projTitle {
     font-size: 450%;
-    color: #eb0a66;
+    color: var(--primary-color);
     padding: 1rem;
-    border-bottom: solid 2px rgb(2, 204, 255);
+    border-bottom: solid 2px var(--secondary-color);
 }
 
 .projCardDiv {
@@ -46,12 +46,12 @@
 }
 
 .projCardTitle:hover {
-    color: #eb0a66;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
 .projCardTitle:hover ~ .projCardDesc {
-    color: rgb(2, 204, 255);
+    color: var(--secondary-color);
 }
 
 @media screen and (max-width: 1025px) { 

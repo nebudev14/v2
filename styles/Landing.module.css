@@ -16,15 +16,15 @@
 }
 
 .firstName {
-    color: #eb0a66;
-    text-shadow: 12px 12px 15px #eb0a66;
+    color: var(--primary-color);
+    text-shadow: 12px 12px 15px var(--primary-color);
     animation: flashLights 3s ease;
     animation-iteration-count: infinite;
 }
 
 .lastName {
-    color:rgb(2, 204, 255);
-    text-shadow: 12px 12px 15px rgb(2, 204, 255);
+    color:var(--secondary-color);
+    text-shadow: 12px 12px 15px var(--secondary-color);
 }
 
 
@@ -80,17 +80,17 @@
     }
 
     6% {
-        text-shadow: 12px 12px 15px #eb0a66;
+        text-shadow: 12px 12px 15px var(--primary-color);
     }
     8% {
         text-shadow: none;
     }
     10% {
-        text-shadow: 12px 12px 15px #eb0a66;
+        text-shadow: 12px 12px 15px var(--primary-color);
     }
    
     100% {
-        text-shadow: 12px 12px 15px #eb0a66;
+        text-shadow: 12px 12px 15px var(--primary-color);
     }
 
 }
