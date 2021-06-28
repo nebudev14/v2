@@ -29,7 +29,6 @@ a {
 
 
 ::-webkit-scrollbar {
-  z-index: 9999;
   width: 4px;
   background-color: rgb(0, 0, 0);
 }
