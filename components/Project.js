@@ -25,7 +25,7 @@ const Project = () => {
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
-                            <strong>Midnight Hacks Website</strong>
+                            <strong>Midnight Hacks</strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
