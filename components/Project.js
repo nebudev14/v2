@@ -13,27 +13,27 @@ const Project = () => {
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>p2</span>
+                        <span className={projectStyles.projCardTitle}>TheraTracker</span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>p3</span>
+                        <span className={projectStyles.projCardTitle}>Midnight Hacks Website</span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>p4</span>
+                        <span className={projectStyles.projCardTitle}>G.O.A.T Notes</span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>p5</span>
+                        <span className={projectStyles.projCardTitle}>Heart Attack Analysis</span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
                     <div className={projectStyles.projCard}>
-                        <span className={projectStyles.projCardTitle}>p6</span>
+                        <span className={projectStyles.projCardTitle}>AutoZoom</span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
