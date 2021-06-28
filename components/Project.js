@@ -7,6 +7,9 @@ const Project = () => {
             <br /><br /><br /><br /> 
             <div className={projectStyles.projectContent}>
                 <h1 className={projectStyles.projTitle}>Projects</h1>
+                <div className={projectStyles.projCardDiv}>
+                    
+                </div>
             </div>
         </div>
     );

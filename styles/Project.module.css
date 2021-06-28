@@ -1,5 +1,6 @@
 .container {
     height: 100vh;
+    text-align: center;
 }
 
 .projectContent {
@@ -12,4 +13,11 @@
     font-size: 350%;
     padding: 1rem;
     border-bottom: solid 2px #fff;
+}
+
+.projCardDiv {
+    display: grid;
+    grid-template-areas: 
+        "proj1 proj2"
+        "proj3 proj4";
 }
