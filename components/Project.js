@@ -30,11 +30,11 @@ const Project = () => {
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
                             <strong>
-                                <a href="https://midnighthacks.tech/" target="_blank">Midnight Hacks</a>
+                                <a href="https://www.youtube.com/watch?v=1FFBsX5C61Q" target="_blank">W.I.P.</a>
                             </strong>
                         </span>
                         <br /><br />
-                        <span className={projectStyles.projCardDesc}>This is a project.</span>
+                        <span className={projectStyles.projCardDesc}>Check back soon</span>
                     </div>
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
@@ -48,20 +48,21 @@ const Project = () => {
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
                             <strong>
-                                <a href="https://github.com/NebuDev14/Heart-Attack-Analysis" target="_blank">Heart Attack Analysis</a>
+                                <a href="https://midnighthacks.tech/" target="_blank">Midnight Hacks</a>
                             </strong>
                         </span>
                         <br /><br />
                         <span className={projectStyles.projCardDesc}>This is a project.</span>
                     </div>
+                    
                     <div className={projectStyles.projCard}>
                         <span className={projectStyles.projCardTitle}>
                             <strong>
-                                <a href="https://github.com/NebuDev14/AutomaticZoom" target="_blank">AutoZoom</a>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">W.I.P.</a>
                             </strong>
                         </span>
                         <br /><br />
-                        <span className={projectStyles.projCardDesc}>This is a project.</span>
+                        <span className={projectStyles.projCardDesc}>Check back soon</span>
                     </div>
                 </div>
             </div>
