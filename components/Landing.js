@@ -15,13 +15,13 @@ const Landing = () => {
             </div>
             <div className={landingStyles.socialMediaWrapper}>
                 <a href="https://www.instagram.com/nebudev14/" target="_blank">
-                    <img src="/instagram.png" className={landingStyles.logo} />
+                    <img src="/instagram.svg" className={landingStyles.logo} />
                 </a>
                 <a href="https://twitter.com/nebudev14" target="_blank">
-                    <img src="/twitter.png" className={landingStyles.logo} />
+                    <img src="/twitter.svg" className={landingStyles.logo} />
                 </a>
                 <a href="https://github.com/NebuDev14" target="_blank">
-                    <img src="/github.png" className={landingStyles.logo} />
+                    <img src="/github.svg" className={landingStyles.logo} />
                 </a>
             </div>
         </div>
