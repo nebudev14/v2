@@ -28,7 +28,7 @@
 
 .openingDiv {
     margin-top: 5rem;
-    padding: 6rem;
+    padding: 6rem 6rem 0 6rem;
 }
 
 .text {
@@ -36,6 +36,7 @@
     text-align: center;
     padding: 0 25rem 0 25rem;
     animation: fadeIn 3s ease;
+    margin: 4rem 0 4rem 0;
 }
 
 .socialMediaWrapper {
