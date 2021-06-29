@@ -102,6 +102,19 @@
 }
 
 @media screen and (max-width: 1025px) { 
+
+    .openingDiv {
+        margin-top: 6rem;
+    }
+
+    .container {
+        height: 100%;
+    }
+
+    .socialMediaWrapper {
+        margin-top: 5rem;
+    }
+
     .title {
         font-size: 250%;
         margin-bottom: 3rem;
