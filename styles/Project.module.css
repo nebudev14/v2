@@ -8,7 +8,6 @@
     margin-bottom: 3rem;
 }
 
-
 .projTitle {
     font-size: 450%;
     color: var(--primary-color);
@@ -84,7 +83,6 @@
             "p4"
             "p5"
             "p6";
-        padding: 0;
     }
 
     .projTitle {
@@ -102,11 +100,11 @@
     }
 
     .projCard {
-        margin: 1.5rem 0 1.5rem 0;
+        margin: 1.5rem auto 1.5rem auto;
     }
 
     .projBox {
-        width: 50%;
+        width: 100%;
     }
 }
 
