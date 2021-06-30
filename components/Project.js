@@ -12,7 +12,7 @@ const Project = () => {
                         <div className={projectStyles.projBox}>
                             <span className={projectStyles.projCardTitle}>
                                 <strong>
-                                    <a href="https://github.com/Rona-Radar/app" target="_blank">Rona-Radar</a>
+                                    <a href="https://github.com/Rona-Radar/app" target="_blank">Rona Radar</a>
                                 </strong>
                             </span>
                             <br /><br />
@@ -23,7 +23,7 @@ const Project = () => {
                         <div className={projectStyles.projBox}>
                             <span className={projectStyles.projCardTitle}>
                                 <strong>
-                                    <a href="https://github.com/NebuDev14/TheraTracker" target="_blank">TheraTracker</a>
+                                    <a href="https://github.com/NebuDev14/TheraTracker" target="_blank">Thera Tracker</a>
                                 </strong>
                             </span>
                             <br /><br />

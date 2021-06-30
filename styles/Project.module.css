@@ -25,7 +25,7 @@
     grid-auto-flow: column;
     row-gap: 4rem;
     padding: 1rem;
-    height: 100vh;
+    height: 100%;
     margin-top: 6rem;
     animation: fadeIn 3s ease;
 }
@@ -38,10 +38,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 2rem;
 }
 
 .projCard {
     margin: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .projCardTitle {
@@ -84,7 +90,6 @@
             "p5"
             "p6";
         padding: 0;
-        height: 100%;
     }
 
     .projTitle {
