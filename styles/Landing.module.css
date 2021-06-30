@@ -36,14 +36,14 @@
     text-align: center;
     padding: 0 25rem 0 25rem;
     animation: fadeIn 3s ease;
-    margin: 4rem 0 4rem 0;
+    margin: 4rem 0 0 0;
 }
 
 .socialMediaWrapper {
     display: flex;
-    justify-content: center;    
+    justify-content: center;   
+    align-items: center; 
     grid-area: social;
-    padding: 0;
 }
 
 .logo {
