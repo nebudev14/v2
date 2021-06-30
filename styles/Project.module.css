@@ -39,6 +39,13 @@
     justify-content: center;
     flex-direction: column;
     padding: 2rem;
+    border-radius: 30px;
+    transition: 200ms ease;
+}
+
+.projBox:hover {
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 3rem var(--primary-color);
 }
 
 .projCard {
@@ -51,23 +58,16 @@
 }
 
 .projCardTitle {
+    color: var(--primary-color);
     font-size: 300%;
     padding-bottom: 1rem;
     transition: 200ms ease;
 }
 
 .projCardDesc {
-    font-size: 130%;
-    transition: 200ms ease;
-}
-
-.projCardTitle:hover {
-    color: var(--primary-color);
-    cursor: pointer;
-}
-
-.projCardTitle:hover ~ .projCardDesc {
     color: var(--secondary-color);
+    font-size: 160%;
+    transition: 200ms ease;
 }
 
 @keyframes fadeIn {
