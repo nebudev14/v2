@@ -2,7 +2,8 @@ import Head from 'next/head';
 import landingStyles from '../styles/Landing.module.css';
 import { HackClubWebring, fetchWebringData } from 'react-hackclub-webring';
 
-export default function Landing({ webringData }) {
+const Landing = ({ webringData }) => {
+  console.log(webringData)
   return (
     <div>
       <Head> 
@@ -17,7 +18,7 @@ export default function Landing({ webringData }) {
           <h2 className={landingStyles.text}>
             a high schooler with a passion for programming and a strong addiction to learning new things
           </h2>
-          <HackClubWebring webringData={webringData} domainName='https://nebu.codes/' />
+          <HackClubWebring webringData={webringData} domainName="https://nebu.codes/"/>
           <div className={landingStyles.socialMediaWrapper}>
             <a href="https://www.instagram.com/nebudev14/" target="_blank">
                 <img src="/instagram.svg" className={landingStyles.logo} title="Instagram" alt="Instagram" />
@@ -34,9 +35,10 @@ export default function Landing({ webringData }) {
     </div>
   );
 }
+export default Landing;
 
 export async function getServerSideProps() {
-  console.log("lmao");
+  console.log("sdafcv");
   return {
     props: { webringData: await fetchWebringData() }
   }
