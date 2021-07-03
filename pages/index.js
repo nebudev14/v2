@@ -1,9 +1,8 @@
 import Head from 'next/head';
 import landingStyles from '../styles/Landing.module.css';
-import { HackClubWebring, fetchWebringData } from 'react-hackclub-webring';
+import {fetchWebringData } from 'react-hackclub-webring';
 
-const Landing = ({ webringData }) => {
-  console.log(webringData)
+const Landing = ({ left, right }) => {
   return (
     <div>
       <Head> 
@@ -18,7 +17,11 @@ const Landing = ({ webringData }) => {
           <h2 className={landingStyles.text}>
             a high schooler with a passion for programming and a strong addiction to learning new things
           </h2>
-          <HackClubWebring webringData={webringData} domainName="https://nebu.codes/"/>
+          <div id="webring-wrapper" className={landingStyles.webringWrapper}>
+            <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>
+            <a href="https://webring.hackclub.com/" class={landingStyles.webringLogo} title="Hack Club Webring" alt="Hack Club Webring"></a>
+            <a href={right} id="nextBtn" class={landingStyles.webringAnchor} title="Next">›</a>
+          </div>
           <div className={landingStyles.socialMediaWrapper}>
             <a href="https://www.instagram.com/nebudev14/" target="_blank">
                 <img src="/instagram.svg" className={landingStyles.logo} title="Instagram" alt="Instagram" />
@@ -38,8 +41,28 @@ const Landing = ({ webringData }) => {
 export default Landing;
 
 export async function getServerSideProps() {
-  console.log("sdafcv");
+  // this code is from hack club, check it out at https://webring.hackclub.com/public/embed.min.js
+  var k = 'https://nebu.codes/',
+  f = 0, c = 0, d = 0,
+  l = '',
+  m = '',
+  b = await fetchWebringData();
+
+  for(var a = b, e = 0; e < a.length; e++)
+    if(k == a[e].url.toLowerCase()) {
+      f = e;
+      break;
+    }
+    c = f-1; 
+    -1 == c && (c=a.length-1);
+    l = a[c].url;d=f+1;
+    d == a.length && (d=0);
+    m = a[d].url;
+
   return {
-    props: { webringData: await fetchWebringData() }
+    props: { 
+      left: l,
+      right: m
+    }
   }
 }
