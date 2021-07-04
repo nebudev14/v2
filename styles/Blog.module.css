@@ -11,3 +11,9 @@
     padding: 1rem;
     border-bottom: solid 2px var(--secondary-color);
 }
+
+@media screen and (max-width: 1025px) { 
+    .blogTitle {
+        font-size: 250%;
+    }
+}
