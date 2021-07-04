@@ -1,12 +1,10 @@
 .container {
     height: 100vh;
-}
-
-.projectContent {
     text-align: center;
     padding-top: 8rem;
     margin-bottom: 3rem;
 }
+
 
 .projTitle {
     font-size: 450%;
@@ -74,6 +72,10 @@
 }
 
 @media screen and (max-width: 1025px) { 
+
+    .container {
+        height: 100%;
+    }
 
     .projCardDiv {
         grid-template-areas: 

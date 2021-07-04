@@ -1,5 +1,13 @@
 .container {
     height: 100vh;
-    display: grid;
     text-align: center;
+    padding-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.blogTitle {
+    font-size: 450%;
+    color: var(--primary-color);
+    padding: 1rem;
+    border-bottom: solid 2px var(--secondary-color);
 }
