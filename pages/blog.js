@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import Blog from '../components/BlogPosts';
-import Nav from '../components/Nav';
+import blogStyles from '../styles/Blog.module.css';
 
 export default function BlogDisplay() {
   return (
@@ -8,7 +7,11 @@ export default function BlogDisplay() {
       <Head> 
         <title>warren yun</title>
       </Head>
-      <Blog />
+      <div className={blogStyles.container}>
+        <span className={blogStyles.blogTitle}>
+            <strong>Blog</strong>
+        </span>
+      </div>
     </div>
   );
 }
