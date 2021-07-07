@@ -2,7 +2,9 @@ import Head from 'next/head';
 import blogStyles from '../styles/Blog.module.css';
 import matter from 'gray-matter';
 
-export default function BlogDisplay(props) {
+export default function Blog(props) {
+  const realData = props.data.map(blog => matter(blog));
+  const listItems = realData.map(listItem => listItem.data);
   return (
     <div>
       <Head> 
@@ -12,6 +14,9 @@ export default function BlogDisplay(props) {
         <span className={blogStyles.blogTitle}>
             <strong>Blog</strong>
         </span>
+        <div className={blogStyles.blogContainer}>
+
+        </div>
       </div>
     </div>
   );
