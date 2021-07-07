@@ -2,7 +2,7 @@ import Head from 'next/head';
 import landingStyles from '../styles/Landing.module.css';
 import {fetchWebringData } from 'react-hackclub-webring';
 
-const Landing = ({ left, right }) => {
+export default function Landing ({ left, right }) {
   return (
     <div>
       <Head> 
@@ -38,7 +38,6 @@ const Landing = ({ left, right }) => {
     </div>
   );
 }
-export default Landing;
 
 export async function getServerSideProps() {
   // this code is from hack club, check it out at https://webring.hackclub.com/public/embed.min.js
@@ -64,5 +63,5 @@ export async function getServerSideProps() {
       left: l,
       right: m
     }
-  }
+  };
 }
