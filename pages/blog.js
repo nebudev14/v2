@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import blogStyles from '../styles/Blog.module.css';
 import matter from 'gray-matter';
+import BlogPost from '../components/BlogPost';
+import blogStyles from '../styles/Blog.module.css';
 
 export default function Blog(props) {
   const realData = props.data.map(blog => matter(blog));
@@ -15,7 +16,9 @@ export default function Blog(props) {
             <strong>Blog</strong>
         </span>
         <div className={blogStyles.blogContainer}>
-
+          {listItems.map((blog, i) => (
+            <BlogPost key={i} blog={blog} />
+          ))}
         </div>
       </div>
     </div>
