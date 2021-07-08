@@ -3,9 +3,10 @@ import ReactMarkdown from "react-markdown";
 import blogStyles from '../../styles/Blog/Blog.module.css';
 
 function Blog(props) {
+    const {data, content} = matter(props.content);
     return (
         <div>
-        
+            <ReactMarkdown children={content} />
         </div>
     );
 }
