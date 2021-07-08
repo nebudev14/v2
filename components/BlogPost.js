@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import blogPostStyles from '../styles/BlogPost.module.css';
+import blogPostStyles from '../styles/Blog/BlogPost.module.css';
 
 function BlogPost({blog}) {
     return (

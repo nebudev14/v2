@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import matter from 'gray-matter';
 import BlogPost from '../components/BlogPost';
-import blogStyles from '../styles/Blog.module.css';
+import blogStyles from '../styles/Blog/BlogPage.module.css';
 
 export default function BlogPage(props) {
   const realData = props.data.map(blog => matter(blog));
