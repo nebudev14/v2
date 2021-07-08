@@ -3,7 +3,7 @@ import matter from 'gray-matter';
 import BlogPost from '../components/BlogPost';
 import blogStyles from '../styles/Blog.module.css';
 
-export default function Blog(props) {
+export default function BlogPage(props) {
   const realData = props.data.map(blog => matter(blog));
   const listItems = realData.map(listItem => listItem.data);
   return (
