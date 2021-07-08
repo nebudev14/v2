@@ -5,12 +5,10 @@ function BlogPost({blog}) {
     return (
         <div className={blogPostStyles.blogPost}>
             <div>
-                <img src={blog.img} />
-                <div className={blogPostStyles.date}>{blog.date}</div>
                 <Link href={`/posts/${blog.slug}`}>
                     <a className={blogPostStyles.blogTitle}>{blog.title}</a>
                 </Link>
-                <p>{blog.description}</p>
+                <div className={blogPostStyles.date}>{blog.date}</div>
             </div>
         </div>
     );
