@@ -12,10 +12,36 @@
 
 .title {
     font-size: 300%;
+    padding: 1.5rem;
+    animation: flashLights 3s ease;
+    animation-iteration-count: infinite;
+    color: var(--primary-color);
+    display: inline;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .info {
     font-size: 65%;
-    padding: 1rem 6rem 0 6rem;
+    padding: 3rem 6rem 0 6rem;
     font-family: Inter;
+}
+
+@keyframes flashLights {
+    0% {
+        text-shadow: none;
+    }
+
+    6% {
+        text-shadow: 12px 12px 15px var(--primary-color);
+    }
+    8% {
+        text-shadow: none;
+    }
+    10% {
+        text-shadow: 12px 12px 15px var(--primary-color);
+    }
+   
+    100% {
+        text-shadow: 12px 12px 15px var(--primary-color);
+    }
 }

@@ -10,7 +10,7 @@ function Blog(props) {
                 <h1 className={blogStyles.title}>{data.title}</h1>
                 <div className={blogStyles.info}>
                     <h1>{data.description}</h1>
-                    <h1>{data.date}</h1>
+                    <h1>Published {data.date}</h1>
                 </div>
             </div>
             <div className={blogStyles.articleContainer}>
