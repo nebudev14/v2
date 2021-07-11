@@ -1,5 +1,21 @@
 .articleContainer {
-    padding: 10rem;
     font-family: Inter;
     font-size: 120%;
+    padding: 0 10rem 0 10rem;
+}
+
+.header {
+    text-align: center;
+    padding: 9rem 9rem 2rem 9rem;
+    font-family: Slim-Joe;
+}
+
+.title {
+    font-size: 300%;
+}
+
+.info {
+    font-size: 65%;
+    padding: 1rem 6rem 0 6rem;
+    font-family: Inter;
 }

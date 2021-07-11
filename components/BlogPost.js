@@ -6,7 +6,9 @@ function BlogPost({blog}) {
         <div className={blogPostStyles.blogPost}>
             <div>
                 <Link href={`/posts/${blog.slug}`}>
-                    <a className={blogPostStyles.blogTitle}>{blog.title}</a>
+                    <a className={blogPostStyles.blogTitle}>
+                        <strong>{blog.title}</strong>
+                    </a>
                 </Link>
                 <div className={blogPostStyles.date}>{blog.date}</div>
             </div>

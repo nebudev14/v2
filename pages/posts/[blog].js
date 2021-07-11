@@ -5,8 +5,17 @@ import blogStyles from '../../styles/Blog/Blog.module.css';
 function Blog(props) {
     const {data, content} = matter(props.content);
     return (
-        <div className={blogStyles.articleContainer}>
-            <ReactMarkdown children={content} />
+        <div>
+            <div className={blogStyles.header}>
+                <h1 className={blogStyles.title}>{data.title}</h1>
+                <div className={blogStyles.info}>
+                    <h1>{data.description}</h1>
+                    <h1>{data.date}</h1>
+                </div>
+            </div>
+            <div className={blogStyles.articleContainer}>
+                <ReactMarkdown children={content} />
+            </div>
         </div>
     );
 }
