@@ -6,10 +6,6 @@ img: https://www.monterail.com/hubfs/vuevsreact.jpg
 date: 8/06/2021
 ---
 
-![Vue vs React](https://www.monterail.com/hubfs/vuevsreact.jpg)
-
----
-
 Vue.js and React.js are two frontend JavaScript frameworks popular in the developer world, with React taking the top spot on the podium for three consecutive years now. Both tools offer developers a productive approach to building various Web applications, but each has its own best use cases and responds to different business needs. In this article, we’ll explore what those use cases can be, along with perks that make Vue.js and React unique.
 
 # The Cream of the Crop

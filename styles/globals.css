@@ -8,6 +8,12 @@
   src: url("../styles/Electrolize/Electrolize-Regular.ttf");
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url("../styles/Inter/static/Inter-Regular.ttf");
+}
+
+
 :root {
   --primary-color: #eb0a66;
   --secondary-color: rgb(2, 204, 255);
