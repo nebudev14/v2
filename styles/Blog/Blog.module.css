@@ -45,3 +45,24 @@
         text-shadow: 12px 12px 15px var(--primary-color);
     }
 }
+
+@media screen and (max-width: 1025px) { 
+
+    .articleContainer {
+        padding: 0 2rem 0 2rem;
+    }
+
+    .title {
+        font-size: 250%;
+        padding: 0;
+        border: none;
+    }
+
+    .header {
+        padding: 8rem 0 1rem 0;
+    }
+
+    .info {
+        padding: 2rem;
+    }
+}
