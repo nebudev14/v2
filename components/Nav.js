@@ -4,7 +4,7 @@ const Nav = () => {
     return (        
         <ul className={navStyles.navList}>
             <li className={navStyles.navElement}>
-                <a href="https://scrapbook.hackclub.com/WarrenYun/" className={navStyles.link} target="_blank">Scrapbook</a>
+                <a href="https://scrapbook.hackclub.com/warren/" className={navStyles.link} target="_blank">Scrapbook</a>
             </li>
             <li className={navStyles.navElement}>
                 <a href="/projects" className={navStyles.link}>Projects</a>
