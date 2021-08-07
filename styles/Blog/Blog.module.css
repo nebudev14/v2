@@ -1,5 +1,5 @@
 .articleContainer {
-    font-family: Inter;
+    font-family: 'Nunito', sans-serif;
     font-size: 120%;
     padding: 0 10rem 0 10rem;
 }
@@ -23,7 +23,7 @@
 .info {
     font-size: 65%;
     padding: 3rem 6rem 0 6rem;
-    font-family: Inter;
+    font-family: 'Nunito', sans-serif;
 }
 
 @keyframes flashLights {

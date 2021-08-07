@@ -3,15 +3,6 @@
   src: url("../styles/Slim\ Joe.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "Electrolize";
-  src: url("../styles/Electrolize/Electrolize-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../styles/Inter/static/Inter-Regular.ttf");
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
