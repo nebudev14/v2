@@ -49,15 +49,15 @@
 .logo {
     width: 30pt;
     height: 30pt;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
     display: inline;
     animation: fadeIn 3s ease;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(103%) contrast(100%);
-    transition: 25ms ease;
+    transition: 150ms ease;
 }
 
 .logo:hover {
-    filter: invert(11%) sepia(69%) saturate(7003%) hue-rotate(328deg) brightness(112%) contrast(95%);
+    transform: scale(1.2);
 }
 
 .pfpContainer {
