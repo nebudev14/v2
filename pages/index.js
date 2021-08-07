@@ -15,7 +15,7 @@ export default function Landing ({ left, right }) {
             <span className={landingStyles.lastName}>yun.</span> 
           </h1>
           <h2 className={landingStyles.text}>
-            a high schooler with a passion for programming and a strong addiction to learning new things
+            A high schooler with a passion for programming and a strong addiction to learning new things!
           </h2>
           <div id="webring-wrapper" className={landingStyles.webringWrapper}>
             <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>

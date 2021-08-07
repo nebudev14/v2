@@ -10,7 +10,7 @@
 .title {
     font-size: 550%;
     text-shadow: 12px 12px 15px #fff;
-
+    font-family: Slim-Joe;
 }
 
 .firstName {
@@ -32,7 +32,7 @@
 }
 
 .text {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     padding: 0 25rem 0 25rem;
     animation: fadeIn 3s ease;

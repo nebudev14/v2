@@ -13,6 +13,8 @@
   src: url("../styles/Inter/static/Inter-Regular.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
 
 :root {
   --primary-color: #eb0a66;
@@ -24,7 +26,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Slim-Joe;
+  font-family: 'Nunito', sans-serif;
   color: #fff;
   background-color: #000;
 }
