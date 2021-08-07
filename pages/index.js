@@ -15,7 +15,7 @@ export default function Landing ({ left, right }) {
             <span className={landingStyles.lastName}>yun.</span> 
           </h1>
           <h2 className={landingStyles.text}>
-            A high schooler with a passion for programming and a strong addiction to learning new things!
+            A <span className="primary">high schooler</span> with a passion for <span className="secondary">programming</span> and a strong addiction to learning new things!
           </h2>
           <div id="webring-wrapper" className={landingStyles.webringWrapper}>
             <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>
@@ -35,6 +35,18 @@ export default function Landing ({ left, right }) {
           </div>
         </div>
       </div>
+
+      <style jsx>{`
+        
+        .primary {
+          color: var(--primary-color);
+        }
+
+        .secondary {
+          color: var(--secondary-color);
+        }
+
+      `}</style>
     </div>
   );
 }
