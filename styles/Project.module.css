@@ -11,6 +11,7 @@
     color: var(--primary-color);
     padding: 1rem;
     border-bottom: solid 2px var(--secondary-color);
+    font-family: Slim-Joe;
 }
 
 .projCardDiv {
@@ -53,6 +54,7 @@
     color: var(--primary-color);
     font-size: 300%;
     padding-bottom: 1rem;
+    font-family: Slim-Joe;
     transition: 200ms ease;
 }
 

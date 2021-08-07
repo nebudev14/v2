@@ -10,6 +10,7 @@
     color: var(--primary-color);
     padding: 1rem;
     border-bottom: solid 2px var(--secondary-color);
+    font-family: Slim-Joe;
 }
 
 @media screen and (max-width: 1025px) { 
