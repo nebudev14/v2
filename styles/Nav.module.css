@@ -21,7 +21,7 @@
     font-family: 'Nunito', sans-serif;
     text-align: center;
     cursor: pointer;
-    transition: 100ms ease;
+    transition: 300ms ease;
 }
 
 .navElement {
@@ -30,8 +30,7 @@
 }
 
 .link:hover {
-    background-color: var(--primary-color);
-    box-shadow: 0 0 5px 0 var(--primary-color), 0 0 10px 0 var(--primary-color);
+    background-color: rgba(114, 114, 114, 0.6);
 }
 
 
