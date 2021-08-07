@@ -46,5 +46,5 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #ff00c3;
+  background-color: var(--primary-color);
 }
