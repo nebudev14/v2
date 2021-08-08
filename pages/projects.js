@@ -7,27 +7,27 @@ const projects = [
     {
         "name": "Rona Radar",
         "link": "https://github.com/Rona-Radar/app",
-        "desc": "This is a project."
+        "desc": "Find nearby hospitals and doctors to get vaccinated at!"
     },
     {
         "name": "Thera Tracker",
         "link": "https://github.com/NebuDev14/TheraTracker",
-        "desc": "This is a project."
+        "desc": "Find nearby thearpists and psychiatrists!"
     },
     {
         "name": "The Orpheus Show",
         "link": "https://podcast.hackclub.com/",
-        "desc": "Check back soon!"
+        "desc": "A podcast by Hack Clubbers, for Hack Clubbers!"
     },
     {
         "name": "G.O.A.T Notes",
         "link": "https://github.com/NebuDev14/G.O.A.T-Notes",
-        "desc": "This is a project."
+        "desc": "Note taking made easy!"
     },
     {
         "name": "Midnight Hacks",
         "link": "https://midnighthacks.tech/",
-        "desc": "This is a project."
+        "desc": "A hackathon for beginners in NYC!"
     },
     {
         "name": "W.I.P.",
