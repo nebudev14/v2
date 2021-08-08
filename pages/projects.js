@@ -15,8 +15,8 @@ const projects = [
         "desc": "This is a project."
     },
     {
-        "name": "W.I.P.",
-        "link": "https://www.youtube.com/watch?v=1FFBsX5C61Q",
+        "name": "The Orpheus Show",
+        "link": "https://podcast.hackclub.com/",
         "desc": "Check back soon!"
     },
     {
