@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Project from '../components/Project';
+import ProjectCard from '../components/ProjectCard';
 
 import projectStyles from '../styles/Project.module.css';
 
@@ -48,7 +48,7 @@ export default function ProjectDisplay() {
             </span>
             <div className={projectStyles.projCardDiv}>
                 {projects.map((project, i) => (
-                    <Project details={project} key={i} />
+                    <ProjectCard details={project} key={i} />
                 ))}
             </div>
         </div>

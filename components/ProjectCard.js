@@ -1,6 +1,6 @@
 import projectStyles from '../styles/Project.module.css';
 
-function Project({details}) {
+function ProjectCard({details}) {
     return (
         <div className={projectStyles.projCard}>
             <a href={details.link} target="_blank" className={projectStyles.projLink}>    
@@ -17,4 +17,4 @@ function Project({details}) {
     );
 }
 
-export default Project;
+export default ProjectCard;
