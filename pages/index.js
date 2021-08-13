@@ -32,6 +32,9 @@ export default function Landing ({ left, right }) {
             <a href="https://github.com/NebuDev14" target="_blank">
                 <img src="/github.svg" className={landingStyles.logo} title="GitHub" alt="GitHub" />
             </a>
+            <a href="https://www.linkedin.com/in/warren-yun-240984216/" target="_blank">
+                <img src="/linkedin.svg" className={landingStyles.logo} title="Linkedin" alt="Linkedin" />
+            </a>
           </div>
         </div>
       </div>
