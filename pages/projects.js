@@ -17,7 +17,7 @@ const projects = [
     {
         "name": "The Orpheus Show",
         "link": "https://podcast.hackclub.com/",
-        "desc": "A podcast by Hack Clubbers, for Hack Clubbers!"
+        "desc": "Co-hosted episodes, created most of the website"
     },
     {
         "name": "G.O.A.T Notes",
