@@ -143,6 +143,7 @@
 
     .container {
         padding: 0 1rem 0 1rem;
+        height: 100%;
     }
 
     .content {
@@ -155,14 +156,21 @@
         margin-top: 6rem;
         padding: 0;
         width: 100%;
+        text-align: center;
     }
 
-    .container {
-        height: 100%;
+    .socialDiv {
+        text-align: center;
+        margin-top: 0;
     }
 
     .socialMediaWrapper {
         margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .webringWrapper {
+        margin-bottom: 0;
     }
 
     .title {
