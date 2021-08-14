@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import landingStyles from '../styles/Landing.module.css';
-import {fetchWebringData } from 'react-hackclub-webring';
+import { fetchWebringData } from 'react-hackclub-webring';
+
+import Social from '../components/Social';
 
 export default function Landing ({ left, right }) {
   return (
@@ -22,20 +24,9 @@ export default function Landing ({ left, right }) {
             <a href="https://webring.hackclub.com/" class={landingStyles.webringLogo} title="Hack Club Webring" alt="Hack Club Webring"></a>
             <a href={right} id="nextBtn" class={landingStyles.webringAnchor} title="Next">›</a>
           </div>
-          <div className={landingStyles.socialMediaWrapper}>
-            <a href="https://www.instagram.com/nebudev14/" target="_blank">
-                <img src="/instagram.svg" className={landingStyles.logo} title="Instagram" alt="Instagram" />
-            </a>
-            <a href="https://twitter.com/nebudev14" target="_blank">
-                <img src="/twitter.svg" className={landingStyles.logo} title="Twitter" alt="Twitter" />
-            </a>
-            <a href="https://github.com/NebuDev14" target="_blank">
-                <img src="/github.svg" className={landingStyles.logo} title="GitHub" alt="GitHub" />
-            </a>
-            <a href="https://www.linkedin.com/in/warren-yun-240984216/" target="_blank">
-                <img src="/linkedin.svg" className={landingStyles.logo} title="Linkedin" alt="Linkedin" />
-            </a>
-          </div>
+
+          <Social />
+
         </div>
       </div>
 
