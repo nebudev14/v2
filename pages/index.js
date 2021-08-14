@@ -22,6 +22,10 @@ export default function Landing ({ left, right }) {
               A <span className="primary">high schooler</span> with a passion for <span className="secondary">programming</span> and a strong addiction to learning new things!
             </h2>
 
+            <h2 className={landingStyles.text}>
+              I'm a <span className="primary">15-year-old developer</span> from New York. <span className="secondary">I like to write code, </span>learn about the brain, and everything in between! I mainly focus on <span className="primary">web development,</span> and in my free time I like to <span className="secondary">skateboard</span> and <span className="secondary">watch superhero movies.</span>
+            </h2>
+
             <div id="webring-wrapper" className={landingStyles.webringWrapper}>
               <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>
               <a href="https://webring.hackclub.com/" class={landingStyles.webringLogo} title="Hack Club Webring" alt="Hack Club Webring"></a>
