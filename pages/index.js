@@ -11,21 +11,28 @@ export default function Landing ({ left, right }) {
         <title>warren yun</title>
       </Head>
       <div className={landingStyles.container}>
-        <div className={landingStyles.openingDiv}>
-          <h1 className={landingStyles.title}>
-            <span className={landingStyles.firstName}>warren </span> 
-            <span className={landingStyles.lastName}>yun.</span> 
-          </h1>
-          <h2 className={landingStyles.text}>
-            A <span className="primary">high schooler</span> with a passion for <span className="secondary">programming</span> and a strong addiction to learning new things!
-          </h2>
-          <div id="webring-wrapper" className={landingStyles.webringWrapper}>
-            <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>
-            <a href="https://webring.hackclub.com/" class={landingStyles.webringLogo} title="Hack Club Webring" alt="Hack Club Webring"></a>
-            <a href={right} id="nextBtn" class={landingStyles.webringAnchor} title="Next">›</a>
+      
+        <div className={landingStyles.content}>
+          <div className={landingStyles.openingDiv}>
+            <h1 className={landingStyles.title}>
+              <span className={landingStyles.firstName}>warren </span> 
+              <span className={landingStyles.lastName}>yun.</span> 
+            </h1>
+            <h2 className={landingStyles.text}>
+              A <span className="primary">high schooler</span> with a passion for <span className="secondary">programming</span> and a strong addiction to learning new things!
+            </h2>
+
+            <div id="webring-wrapper" className={landingStyles.webringWrapper}>
+              <a href={left} id="previousBtn" class={landingStyles.webringAnchor} title="Previous">‹</a>
+              <a href="https://webring.hackclub.com/" class={landingStyles.webringLogo} title="Hack Club Webring" alt="Hack Club Webring"></a>
+              <a href={right} id="nextBtn" class={landingStyles.webringAnchor} title="Next">›</a>
+            </div>
           </div>
 
-          <Social />
+          <div className={landingStyles.socialDiv}>
+            <img src="/warren.png" alt="warren" className={landingStyles.pfp} />
+            <Social />
+          </div>
 
         </div>
       </div>
