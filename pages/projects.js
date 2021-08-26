@@ -30,9 +30,9 @@ const projects = [
         "desc": "A hackathon for beginners in NYC!"
     },
     {
-        "name": "W.I.P.",
-        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "desc": "Check back soon!"
+        "name": "Control Panel",
+        "link": "https://github.com/NebuDev14/Control-Panel",
+        "desc": "Mobile app written in dart to control parts of my computer!"
     },
 ];
 
