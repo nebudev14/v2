@@ -10,6 +10,11 @@ const projects = [
         "desc": "Find nearby hospitals and doctors to get vaccinated at!"
     },
     {
+        "name": "Midnight Hacks",
+        "link": "https://midnighthacks.tech/",
+        "desc": "A hackathon for beginners in NYC!"
+    },
+    {
         "name": "Thera Tracker",
         "link": "https://github.com/NebuDev14/TheraTracker",
         "desc": "Find nearby thearpists and psychiatrists!"
@@ -20,20 +25,16 @@ const projects = [
         "desc": "Co-hosted episodes, created most of the website"
     },
     {
+        "name": "Lumiere",
+        "link": "https://github.com/project-lumiere/lumiere.codes",
+        "desc": "A website for computer science publications!"
+    },
+    {
         "name": "G.O.A.T Notes",
         "link": "https://github.com/NebuDev14/G.O.A.T-Notes",
         "desc": "Note taking made easy!"
     },
-    {
-        "name": "Midnight Hacks",
-        "link": "https://midnighthacks.tech/",
-        "desc": "A hackathon for beginners in NYC!"
-    },
-    {
-        "name": "Control Panel",
-        "link": "https://github.com/NebuDev14/Control-Panel",
-        "desc": "Mobile app written in dart to control parts of my computer!"
-    },
+
 ];
 
 export default function ProjectDisplay() {
